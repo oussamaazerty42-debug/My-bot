@@ -476,5 +476,5 @@ async def on_error(i: discord.Interaction, error: app_commands.AppCommandError):
     if isinstance(error, app_commands.MissingPermissions):
         msg = "You don't have permission for that."
     elif isinstance(error, app_commands.BotMissingPermissions):
-        "msg = "I'm missing permissions to do that."
+        msg = "I'm missing permissions to do that."
         
